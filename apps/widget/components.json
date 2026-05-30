@@ -5,17 +5,17 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "src/styles/globals.css",
+    "css": "../../packages/ui/src/styles/globals.css",
     "baseColor": "neutral",
     "cssVariables": true
   },
   "iconLibrary": "hugeicons",
   "aliases": {
     "components": "@/components",
-    "utils": "@workspace/ui/lib/utils",
     "hooks": "@/hooks",
     "lib": "@/lib",
-    "ui": "@/components"
+    "utils": "@workspace/ui/lib/utils",
+    "ui": "@workspace/ui/components"
   },
   "rtl": false,
   "menuColor": "default",
